@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+    font-size: 11px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    width: 100%;
+    background-color: #d61212;
+}
+menu{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+menu .left input{
+    padding: 9px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+
+}
+menu ul{
+    display: flex;
+    align-items: center;
+}
+menu ul li{
+    list-style: none;
+
+}
+menu ul li a{
+    padding: 21px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+menu ul li a:hover{
+    padding: 21px;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    border-radius: 7px;
+}
+main{
+    width: 90%;
+    height: 100vh;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: center;
+    padding: 9px;
+}
+.row{
+    width: 100%;
+    /* background-color: black; */
+    height: 33%;
+}
+.row_1{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.card{
+    width: 33%;
+    background-color: rgb(243, 242, 242);
+    padding: 13px;
+    border-radius: 5px;
+    text-align: justify;
+}
+.row_2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5px;
+}
+.row_2 .card{
+    width: 50%;
+}
+.row_3{
+    display: flex;
+}
+.row_3 .card{
+    width: 100%;
+}
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #363333;
+    padding: 21px;
+}
+footer .right{
+    color: rgb(175, 164, 164);
+
+}
+footer .center{
+    color: rgb(175, 164, 164);
+
+}
+footer .left{
+    color: rgb(175, 164, 164);
+}
